@@ -15,7 +15,7 @@ header{
 }
 main{
     background: blue;
-    grid-area: 1/2;
+
     grid-area: main;
     /* grid-column: 1/2;
     /A mesma coisa que esse código de cima
@@ -44,8 +44,8 @@ footer{
 .container{
     display: grid;
 
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 25vh 55vh 20vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 25vh 55vh 20vh ;
     grid-template-areas: "header header"
                     "main aside"
                     "footer footer";
